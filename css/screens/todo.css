@@ -1,0 +1,117 @@
+.toDo-header {
+  width: 100%;
+  height: 9vh;
+  background-color: rgb(69, 196, 154);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toDo-header input {
+  height: 60%;
+  width: 90%;
+  background-color: rgb(122, 194, 170);
+  border: 1px solid rgba(245, 242, 242, 0.1);
+  font-size: 15px;
+}
+
+.toDo-header input::placeholder {
+  color: white;
+}
+
+.toDo-header button {
+  position: absolute;
+  border: 1px solid rgb(69, 196, 154);
+  top: 12%;
+  right: 1%;
+  width: 54px;
+  height: 76%;
+  border-radius: 27px;
+  background-color: white;
+  color: rgb(69, 196, 154);
+}
+
+.toDo-header button:hover {
+  cursor: pointer;
+}
+
+.toDo-header button:focus {
+  outline: none;
+}
+
+.finish_column,
+.toDo_column {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 15px;
+  margin-top: 15px;
+  background-color: white;
+  align-items: center;
+}
+
+.toDo {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 15px;
+}
+
+.toDo,
+.finish {
+  margin: 0px 15px;
+}
+
+.finish_column span,
+.toDo_column span {
+  font-weight: 600;
+}
+
+.finish_column_icons,
+.toDo_column_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px;
+}
+
+.trash-icon {
+  background-color: white;
+  border: none;
+  margin-right: 20px;
+  opacity: 0.4;
+  font-size: 30px;
+}
+
+.trash-icon:hover,
+.toDo_check-icon:hover,
+.finish_check-icon {
+  cursor: pointer;
+}
+
+.trash-icon:hover {
+  color: red;
+}
+
+.toDo_check-icon {
+  background-color: white;
+  border: 1px solid rgb(69, 196, 154);
+  height: 34px;
+  width: 34px;
+  border-radius: 17px;
+  color: rgb(69, 196, 154);
+}
+
+.finish_check-icon {
+  background-color: rgb(69, 196, 154);
+  border: 1px solid rgb(69, 196, 154);
+  height: 34px;
+  width: 34px;
+  border-radius: 17px;
+  color: white;
+}
+
+.trash-icon:focus,
+.toDo_check-icon:focus,
+.finish_check-icon {
+  outline: none;
+}

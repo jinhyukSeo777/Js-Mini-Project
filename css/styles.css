@@ -1,0 +1,12 @@
+@import "reset.css";
+
+@import "screens/todo.css";
+@import "screens/clock.css";
+@import "screens/weather.css";
+@import "screens/index.css";
+
+@import "components/nav.css";
+
+body {
+  background-color: rgba(58, 57, 57, 0.1);
+}

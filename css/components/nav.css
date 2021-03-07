@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-top: 1px solid rgba(206, 202, 202, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 9vh;
+  box-sizing: border-box;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.nav_link i {
+  font-size: 30px;
+  color: rgb(69, 196, 154);
+}
